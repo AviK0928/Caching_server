@@ -1,4 +1,4 @@
-# Simple Redis Clone in Java
+# Simple Caching Server in Java
 
 This is a lightweight Redis-like key-value store implemented in Java. The project aims to replicate basic Redis functionality as a learning exercise and for educational purposes.
 
