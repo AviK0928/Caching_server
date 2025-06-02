@@ -19,5 +19,18 @@ A lightweight Redis-like key-value store implemented in Java. Originally designe
 
 ## How to Run
 
-1. Clone the repository and compile on your machin.
-2. Go to Caching_Server\out\artifacts\Caching_Server_jar and run the jar file.
+1. Clone the repository and compile on your machine.
+2. Go to:
+   ```bash
+    Caching_Server\out\artifacts\Caching_Server_jar
+   ```
+    and run the jar file.
+
+# Future Improvements
+There will be many features implemented in the near future such as:  
+- Additional durability via AOF Persistence support
+- Multi in-memory store support for a single server
+- Add more Redis commands (INCR, LPUSH, SADD, etc.)
+- Enhance concurrency with fine-grained locking or atomic operations
+- Add transaction and scripting support
+- Develop a client library for easier usage
