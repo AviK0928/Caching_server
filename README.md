@@ -5,7 +5,7 @@ A lightweight Redis-like key-value store implemented in Java. Originally designe
 ## Features Implemented
 
 - Basic key-value storage with `SET` and `GET` commands  
-- Additional commands: `DEL`, `EXPIRE`, `TTL`, `CLOSE`, `SAVE` and `CLEAR`  
+- Additional commands: `DEL`, `EXP`, `TTL`, `CLOSE`, `SAVE` and `CLEAR`  
 - Multi-user support: handle multiple client connections concurrently  
 - In-memory data storage with expiration management  
 - RDB-style snapshot persistence: save and restore data on disk  
