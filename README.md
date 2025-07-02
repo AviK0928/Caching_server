@@ -1,4 +1,4 @@
-# Simple Caching Server in Java
+# Caching Server in Java
 
 A lightweight Redis-like key-value store implemented in Java. Originally designed as a single-client in-memory store, this project has evolved to support multiple concurrent clients for single store, basic Redis commands, and RDB-style persistence.
 
